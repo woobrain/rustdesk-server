@@ -8,7 +8,6 @@ RUN \
   tar -C / -Jxpf /tmp/s6-overlay-noarch.tar.xz && \
   tar -C / -Jxpf /tmp/s6-overlay-${S6_ARCH}.tar.xz && \
   rm /tmp/s6-overlay*.tar.xz && \
-  ln -s /run /var/run
 
 COPY rootfs /
 
