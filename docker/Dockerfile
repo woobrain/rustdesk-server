@@ -1,4 +1,4 @@
-FROM woobrain/rustdesk-api:latest
+FROM woobrain/rustdesk-api:full-s6
 
 ARG S6_OVERLAY_VERSION=3.2.0.0
 ARG S6_ARCH=x86_64
